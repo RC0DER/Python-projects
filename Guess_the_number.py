@@ -20,7 +20,7 @@ if choice == 1 :
             if guess == random_num:
                 print("wohoo!! You guessed it right🎉🎉")
             else:
-                print("Oops, you guessed it wrong 😔💔")
+                print("Oops, you guessed it wrong 😔💔.","It was",random_num)
 #Intermediate(0-20)
 elif choice == 2 :
     random_num = random.randint(0,20)
@@ -39,7 +39,7 @@ elif choice == 2 :
             if guess == random_num:
                 print("wohoo!! You guessed it right🎉🎉")
             else:
-                print("Oops, you guessed it wrong 😔💔")
+                print("Oops, you guessed it wrong 😔💔.","It was",random_num)
 #Pro(0-50)
 elif choice == 3 :
     random_num = random.randint(0,50)
@@ -58,7 +58,7 @@ elif choice == 3 :
             if guess == random_num:
                 print("wohoo!! You guessed it right🎉🎉")
             else:
-                print("Oops, you guessed it wrong 😔💔")
+                print("Oops, you guessed it wrong 😔💔.","It was",random_num)
 #Hacker(0-100)
 elif choice == 4 :
     random_num = random.randint(0,100)
@@ -77,7 +77,7 @@ elif choice == 4 :
             if guess == random_num:
                 print("wohoo!! You guessed it right🎉🎉")
             else:
-                print("Oops, you guessed it wrong 😔💔")
+                print("Oops, you guessed it wrong 😔💔","It was",random_num)
 #God(0-100)
 elif choice == 5 :
     random_num = random.randint(0,200)
@@ -96,7 +96,7 @@ elif choice == 5 :
             if guess == random_num:
                 print("wohoo!! You guessed it right🎉🎉")
             else:
-                print("Oops, you guessed it wrong 😔💔")
+                print("Oops, you guessed it wrong 😔💔.","It was",random_num)
 else :
     print("Enter a valid Input")
 print("__________GAME OVER__________")
