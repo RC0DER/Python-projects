@@ -1,7 +1,7 @@
 import random
 import string
 str = string.ascii_letters
-command = input("Enter 'code' for coding and 'decode' for decoding: ")
+command = input("Enter 'code' for Encrypt and 'decode' for decrypt: ")
 message_delivered = ""
 if command == "code" :
     message = input("Enter Your Message: ")
